@@ -9,11 +9,11 @@ import java.util.Scanner;
 
 public class Solution01
 {
-    private static final Scanner in = new Scanner(System.in);
-    // variable to get user input
 
     public static void main(String [] args)
     {
+        Scanner in = new Scanner(System.in);
+        // variable to get user input
         System.out.print("Hello, what is your name?\n");
         // prompt user for input (name)
         String name = in.nextLine();
